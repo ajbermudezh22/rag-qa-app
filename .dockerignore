@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Data (optional - you might want to include this, but for now exclude it)
+data/
+
+# Tests
+tests/
+*.pyc
+.pytest_cache/
+
+# Documentation
+*.md
+README.md
