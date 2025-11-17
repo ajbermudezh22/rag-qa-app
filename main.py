@@ -39,7 +39,7 @@ def process_document(file_path: str, page_limit: int = 200):
     
     # Create prompt template using ChatPromptTemplate
     prompt = ChatPromptTemplate.from_template(
-        "Context: {context}\nQuestion: {question}\nAnswer:"
+        "Context: {context}\nQuestion: {input}\nAnswer:"
     )
     
     # Create the question-answering chain
